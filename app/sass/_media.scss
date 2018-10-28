@@ -1,0 +1,201 @@
+@media only screen and (max-width: 1199px){
+  body{
+    #last-revenue{
+      .cars{
+        .car{
+          .name, .prace{
+            text-align: center;
+            padding: 0px 10px;
+          }
+        }
+      }
+    }
+    #application-form{
+      .all-form{
+        .over, .call-form, .title{
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px){
+  body{
+    #last-revenue{
+      .cars{
+        .car{
+          margin-bottom: 15px;
+          height: 330px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px){
+  body{
+    #header{
+      .group{
+        margin-top: 100px;
+      }
+    }
+    #last-revenue{
+      .cars{
+        .car{
+          height: 300px;
+        }
+      }
+    }
+    #footer{
+      height: 450px;
+      .footer-row{
+        padding-top: 40px;
+        .logoFooter{
+          padding-bottom: 50px;
+        }
+      }
+      .blabladay{
+        margin-top: 25px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px){
+  body{
+    #header{
+      height: 650px;
+      .group{
+        padding: 10px;
+        h1{
+          font-size: 48px
+        }
+        h2{
+          font-size: 24px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+    }
+    #last-revenue {
+      .cars{
+        .car{
+          max-width: 320px;
+          margin: 10px auto;
+          .name{
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+    #about-us{
+      .inform{
+        .textInform{
+          font-size: 14px;
+        }
+      }
+    }
+    #what-we-do{
+      .over{
+        font-size: 14px;
+      }
+    }
+    #footer{
+      height: 280px;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px){
+  body{
+    #application-form{
+      height: 725px;
+      .all-form{
+        background-color: #4d5a6b00;
+        top: 0px;
+        height: 100%;
+        .title{
+          padding-top: 25px;
+        }
+        .over{
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 389px){
+  body{
+    #header{
+      .group{
+        margin-top: 100px;
+        padding: 5px;
+        h1{
+          font-size: 30px
+        }
+        h2{
+          font-size: 18px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+    }
+    #last-revenue {
+      .cars{
+        .car{
+          max-width: 300px;
+          height: 280px;
+        }
+      }
+    }
+    #application-form{
+      .all-form{
+        padding: 0px;
+        .title{
+          padding-top: 75px;
+          font-size: 24px;
+        }
+        .over{
+          padding-top: 15px;
+          font-size: 14px;
+
+        }
+        .call-form{
+          padding-top: 15px;
+          input{
+            margin-top: 20px;
+            font-size: 14px
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 300px){
+  body{
+    #last-revenue {
+      .cars{
+        .car{
+          max-width: 280px;
+          height: 270px;
+        }
+      }
+    }
+    #application-form{
+      .all-form{
+        .wrapper{
+          padding: 0px;
+          .title{
+            padding-top: 60px;
+          }
+        }
+      }
+    }
+  }
+}
